@@ -27,6 +27,7 @@ function createBoxes(amount) {
 }
 
 buttonCreateRef.addEventListener("click", () => {
+  boxesRef.innerHTML = "";
   amount = inputRef.value;
     createBoxes(amount);
   });
